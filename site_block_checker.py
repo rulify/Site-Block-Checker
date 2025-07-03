@@ -139,4 +139,4 @@ def run_checks(site_list_path: str, ua_list_path: str):
 
 # Main entry point
 if __name__ == "__main__":
-    run_checks("site_list.csv", "user_agents")
+    run_checks("site_list.csv", "user_agents.txt") #FOR LINUX: remove the ".txt" from the user_agents section
